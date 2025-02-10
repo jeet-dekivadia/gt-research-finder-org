@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform, useSpring } from "framer-motion"
 import { useRef, useState } from "react"
 import Image from "next/image"
 import FuturisticButton from "./FuturisticButton"
+import Link from "next/link"
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -15,7 +16,7 @@ export default function Hero() {
   })
 
   // Smooth spring physics for parallax
-  const springConfig = { stiffness: 300, damping: 30, mass: 1 }
+  const springConfig = { stiffness: 200, damping: 30, mass: 1 }
   const y = useSpring(useTransform(scrollYProgress, [0, 1], ["0%", "50%"]), springConfig)
 
   // Background tint transition
@@ -116,14 +117,11 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <FuturisticButton
-              size="lg"
-              onClick={() => window.open("https://your-typeform-url.com", "_blank")}
-              className="transform-gpu"
-              glowColor="rgba(179, 163, 105, 0.5)"
-            >
-              Join the Waitlist
-            </FuturisticButton>
+            <Link href="/join">
+              <FuturisticButton size="lg" className="transform-gpu" glowColor="rgba(179, 163, 105, 0.5)">
+                Join Our Network
+              </FuturisticButton>
+            </Link>
           </motion.div>
         </motion.div>
       </div>
