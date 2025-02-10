@@ -9,7 +9,7 @@ const features = [
     icon: Search,
     title: "Smart Search",
     description:
-      "Find research opportunities that perfectly match your interests and skills through our advanced filtering system.",
+      "Find research opportunities perfectly matching your interests & skills through our filtering system.",
   },
   {
     icon: Brain,
