@@ -16,7 +16,7 @@ export default function Hero() {
   })
 
   // Smooth spring physics for parallax
-  const springConfig = { stiffness: 50, damping: 20, mass: 1 }
+  const springConfig = { stiffness: 500, damping: 20, mass: 1 }
   const y = useSpring(useTransform(scrollYProgress, [0, 1], ["0%", "50%"]), springConfig)
 
   // Background tint transition
