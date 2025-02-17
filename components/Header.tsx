@@ -29,7 +29,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <motion.div className="text-2xl font-bold" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-          GT Research Finder
+          Research Finder
         </motion.div>
         <nav className="hidden md:flex space-x-6">
           <NavLink href="#features">Features</NavLink>
