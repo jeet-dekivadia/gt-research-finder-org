@@ -8,7 +8,7 @@ const steps = [
   {
     icon: UserPlus,
     title: "Create Your Profile",
-    description: "Sign up with your GT credentials and build your academic profile with your interests and skills.",
+    description: "Sign up with your institute credentials and build your academic profile with your interests and skills.",
   },
   {
     icon: Search,
