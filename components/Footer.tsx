@@ -9,8 +9,8 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-display font-bold text-gt-gold">GT Research Finder</h3>
-            <p className="text-gray-400">Connecting GT students with research opportunities.</p>
+            <h3 className="text-xl font-display font-bold text-gt-gold">Research Finder</h3>
+            <p className="text-gray-400">Connecting students with research opportunities.</p>
           </div>
 
           <div>
@@ -88,7 +88,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-gray-800">
           <p className="text-center text-gray-400">
-            © {new Date().getFullYear()} GT Research Finder. All rights reserved.
+            © {new Date().getFullYear()} Research Finder. All rights reserved.
           </p>
         </div>
       </div>
