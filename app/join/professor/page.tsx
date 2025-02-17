@@ -37,7 +37,7 @@ export default function ProfessorJoinPage() {
         </div>
         <div>
           <label htmlFor="email" className="block text-gt-gold mb-2">
-            Georgia Tech Email
+            Institute Email
           </label>
           <input
             type="email"
