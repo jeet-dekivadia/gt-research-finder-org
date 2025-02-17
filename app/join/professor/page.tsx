@@ -60,7 +60,7 @@ export default function ProfessorJoinPage() {
         </div>
         <div>
           <label htmlFor="expertise" className="block text-gt-gold mb-2">
-            Area of Expertise
+            Areas of Expertise
           </label>
           <input
             type="text"
