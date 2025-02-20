@@ -37,7 +37,7 @@ export default function StudentJoinPage() {
         </div>
         <div>
           <label htmlFor="email" className="block text-gt-gold mb-2">
-            Georgia Tech Email
+            Institute Email
           </label>
           <input
             type="email"
@@ -49,7 +49,7 @@ export default function StudentJoinPage() {
         </div>
         <div>
           <label htmlFor="qualification" className="block text-gt-gold mb-2">
-            Qualification
+            Qualifications
           </label>
           <input
             type="text"
@@ -60,7 +60,7 @@ export default function StudentJoinPage() {
         </div>
         <div>
           <label htmlFor="interest" className="block text-gt-gold mb-2">
-            Area of Interest
+            Areas of Interest
           </label>
           <input
             type="text"

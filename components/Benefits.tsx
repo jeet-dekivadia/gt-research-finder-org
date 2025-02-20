@@ -23,7 +23,7 @@ const benefits = [
   {
     icon: CheckCircle,
     title: "Verified Positions",
-    description: "All research opportunities are verified and directly posted by Georgia Tech faculty members.",
+    description: "All research opportunities are verified and directly posted by University faculty members.",
   },
 ]
 
@@ -47,11 +47,11 @@ export default function Benefits() {
         >
           <h2 className="text-4xl md:text-5xl font-condensed font-bold mb-6">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-gt-gold via-gt-gold-light to-white">
-              Benefits for GT Students
+              Benefits for Students
             </span>
           </h2>
           <p className="text-xl text-gray-300 font-slab max-w-3xl mx-auto">
-            Experience a revolutionary way to discover and apply for research opportunities at Georgia Tech
+            Experience a revolutionary way to discover and apply for research opportunities
           </p>
         </motion.div>
 

@@ -47,7 +47,7 @@ export default function Features() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl font-condensed font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gt-gold via-gt-gold-light to-white">
-            Why Choose GT Research Finder?
+            Why Choose Research Finder?
           </h2>
           <p className="text-xl text-gray-300 font-slab max-w-3xl mx-auto">
             Our platform streamlines the research discovery process, making it easier than ever to find your perfect

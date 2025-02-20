@@ -6,9 +6,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "Who can use GT Research Finder?",
+    question: "Who can use Research Finder?",
     answer:
-      "GT Research Finder is available to all current Georgia Tech students looking for research opportunities across various departments and labs.",
+      "Research Finder is available to all current students looking for research opportunities across various departments and labs.",
   },
   {
     question: "How does the AI matching system work?",
@@ -24,11 +24,6 @@ const faqs = [
     question: "Can professors post research opportunities?",
     answer:
       "Yes! Professors can create accounts to post positions and review applications directly through our platform.",
-  },
-  {
-    question: "Is this an official Georgia Tech platform?",
-    answer:
-      "While we're created by GT students for GT students, we're an independent platform working closely with the GT community.",
   },
 ]
 

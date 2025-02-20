@@ -103,7 +103,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300, damping: 10 }}
               >
-                GT Research Finder
+                Research Finder
               </motion.span>
             </motion.h1>
 
@@ -113,9 +113,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Connect with Georgia Tech's leading researchers and labs
-              <br />
-              through our AI-powered platform
+              Connect with leading researchers and labs through our AI-powered platform
             </motion.p>
 
             {/* Updated CTA Button */}

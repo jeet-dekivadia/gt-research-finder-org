@@ -14,8 +14,8 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "GT Research Finder",
-  description: "Find research opportunities at Georgia Tech",
+  title: "Research Finder",
+  description: "Discover and apply for academic research opportunities at institutes around the world",
 }
 
 export default function RootLayout({
